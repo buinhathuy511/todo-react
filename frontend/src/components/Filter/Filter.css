@@ -1,0 +1,11 @@
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.filter-container label {
+  padding: 5px;
+  margin-right: 10px;
+}

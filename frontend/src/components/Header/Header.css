@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #319795;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 0px 50px 20px 50px;
+}
+
+header button {
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
