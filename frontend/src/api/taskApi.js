@@ -1,9 +1,8 @@
 import axios from "axios";
 import API_URL from "../utils/constants";
+import "dotenv/config";
 
-// Do chưa làm phần xác thực người dùng nên sẽ hard code token
-const tokenHardCode =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWMzZGY0MjNmMTRiMTYwN2NkNDBkNyIsImlhdCI6MTczNDgwMzQyMSwiZXhwIjoxNzM0ODg5ODIxfQ.513BHOhU--0MRlCgjZ8YuVdsf0_ILXHoq0Z5XTLXQRY";
+const tokenHardCode = process.env.TOKEN_HARD_CODE;
 
 export const addTaskAPI = async (task) => {
   try {

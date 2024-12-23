@@ -1,1 +1,4 @@
 todo/node_modules
+todo-react-nodejs/frontend/.env
+todo-react-nodejs/backend/.env
+todo/frontend/.env-1
